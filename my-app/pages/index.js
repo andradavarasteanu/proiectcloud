@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { getCollection } from '@/utils/functions';
 import styles from '../pages/Home.module.css';
 import Head from 'next/head';
+import Link from 'next/link';
 
 export default function Home({ countries: initialCountries }) {
   const [countries, setCountries] = useState(initialCountries);
@@ -46,7 +47,7 @@ export default function Home({ countries: initialCountries }) {
         <meta name="description" content="Your travel destinations journal" />
       </Head>
 
-      <h1 className={styles.title}>Places you've visited </h1>
+      <h1 className={styles.title}>Places you&apos;ve visited </h1>
       
       {error && (
         <div className={styles.error}>
@@ -60,7 +61,7 @@ export default function Home({ countries: initialCountries }) {
       {countries.length === 0 ? ( //nu exista inca
         <div className={styles.emptyState}>
           <p></p>
-          <a href="/add" className={styles.addButton}>Add your first destination</a>
+          <Link href="/add/">Add your first destination</Link>
         </div>
       ) : (
         <div className={styles.postcardsContainer}>
