@@ -1,15 +1,14 @@
-# proiectcloud
-                                                     PROIECT CLOUD COMPUTING
-                                             APLICAȚIE – MEMORATOR DE VACANȚE
+                                         PROIECT CLOUD COMPUTING
+                               APLICAȚIE – MEMORATOR DE VACANȚE
 
 
-                                                                                                          VĂRĂȘTEANU ANDRADA MARIA
+                                                                                    VĂRĂȘTEANU ANDRADA MARIA
                                                                                                               GRUPA 1134
 
-LINK PREZENTARE
+LINK PREZENTARE : https://www.youtube.com/watch?v=s6pil9vqkq0
 
 LINK PUBLICARE : http://proiectcloud-olive.vercel.app/
-LINK GitHub: 
+LINK GitHub: (repository public) https://github.com/andradavarasteanu/proiectcloud.git
 
 
 1.	Introducere
@@ -42,16 +41,17 @@ Utilizatorul interacționează prima dată cu pagina principală a aplicației (
 5.	Capturi ecran aplicație
 
  
-                                                                                             Figură 2 Pagina principală
+                                                                Figură 2 Pagina principală
 
 
   
-                                                                                                  Figură 3 Formularul de adăugare
+                                                               Figură 3 Formularul de adăugare
  
-                                                                                 Figură 4 Pagina Vacation Ideas
+                                                        Figură 4 Pagina Vacation Ideas
 6.	Referințe
 
 https://nextjs.org/docs%23what-is-nextjs
+https://www.geeksforgeeks.org/nextjs/
 https://www.getfishtank.com/insights/what-is-vercel
 https://nodejs.org/docs/latest/api/synopsis.html
 https://www.mongodb.com/docs/atlas/
